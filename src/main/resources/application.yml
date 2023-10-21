@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:sdw2023  # URL para um banco de dados H2 em memória
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true  # Habilita o console do H2 para facilitar a visualização do banco de dados
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true  # Mostra as consultas SQL no console
+
+server:
+  port: 8080  # Porta em que o servidor será executado
+

@@ -1,4 +1,4 @@
-package jmauricio.com.github.santanderdevweek2023;
+package jmauricio.com.github.santanderdevweek2023.model;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
